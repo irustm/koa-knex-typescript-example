@@ -4,7 +4,9 @@
         "target": "es2017",
         "noImplicitAny": true,
         "outDir": "./dist",
-        "sourceMap": true
+        "sourceMap": true,
+        "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+        "emitDecoratorMetadata": true    
     },
     "include": [
         "src/**/*"

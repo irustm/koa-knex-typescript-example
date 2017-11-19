@@ -19,10 +19,14 @@
     "typescript": "2.5.2"
   },
   "dependencies": {
+    "injection-js": "^2.2.0",
     "knex": "^0.13.0",
     "koa": "2.3.0",
+    "koa-bodyparser": "^4.2.0",
     "koa-router": "7.2.1",
-    "pg": "^7.4.0"
+    "pg": "^7.4.0",
+    "routing-controllers": "^0.7.6",
+    "typedi": "^0.5.2"
   },
   "license": "ISC"
 }
